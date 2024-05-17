@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background: #ecf0f3
+}
+.navbar
+{
+background: #72aad3;
+min-width: 60px;
+min-height: 80px;
+}
+.navbar-brand
+{
+margin-left: 10px;
+}
+.s
+{
+background-image: url("image/bg6home.jpg");
+width:auto;
+height: 200px;
+}
+.testimonial-card .card-up { 
+    height: 120px; overflow: hidden;
+     border-top-left-radius:
+    0.25rem;
+     border-top-right-radius: 0.25rem;
+     } 
+.test
+{
+padding: 10px;
+}
+    .testimonial-card .avatar { 
+    width: 110px;
+    margin-top: -60px; overflow: hidden;
+     border: 3px solid #fff; 
+     border-radius: 50%;
+     }
+  
+ .s p {
+    padding-top: 40px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(196, 22, 22), rgb(134, 226, 14), rgb(76, 2, 126));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+ 
+
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ig 
+  {
+padding-top: 50px;
+margin:auto;
+  }
+  .gi img
+  {
+width:80% ;
+height:400px;
+  }
+
